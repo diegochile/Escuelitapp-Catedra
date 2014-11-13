@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html ng-app="escuelitapp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+
+    <title>Escuelitapp</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+    
+    <!-- Static navbar -->
+<body>
+
+<!-- ng-include directive -->
+<div ng-include="'header.html'"></div>
+    <div class="container">
+
+
+        <div class="row">
+
+            <div class="container" ng-view id="contenedorGeneral">
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+  
+<!-- ng-include directive -->
+<div ng-include="'footer.html'"></div>
+	
+
+
+
+    <!-- Bootstrap -->
+    <script src=""></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.2.26/angular-route.min.js"></script>
+    <!-- Parse -->
+    <script src="https://www.parsecdn.com/js/parse-1.3.0.min.js"></script>
+
+    <script src="js/miParse.js"></script>
+    <script src="js/appbase.js"> </script>
+
+</body>
+
+</html>
